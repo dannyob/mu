@@ -22,8 +22,7 @@ SUBDIRS= utils query
 
 if HAVE_JSON_GLIB
 json_srcs=							\
-	mu-msg-json.c						\
-	mu-msg-json.h
+	mu-msg-json.c
 json_flag="-DHAVE_JSON_GLIB"
 endif
 
